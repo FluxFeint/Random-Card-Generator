@@ -1,3 +1,5 @@
 # Random Card Generator for 4Geeks
 
-Complete and with all the bonuses.
+Completed with all the bonuses
+
+![](https://i.imgur.com/h9CKtoE.png)
