@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Card Generator</title>
+    <script
+    src="https://kit.fontawesome.com/c08276c21c.js"
+    crossorigin="anonymous"
+    ></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="./img/Poker.png" type="image/x-icon">
+</head>
+<body>
+    <div id="timerContainer" class="text-center">
+        <h1>A new card will be generated in:</h1>
+        <div id="timer" class="timer">10</div>
+    </div>
+    <div id="card" class="card">
+        <div id="symbol1" class="symbol"></div>
+        <div id="number" class="number"></div>
+        <div id="symbol2" class="symbol"></div>
+    </div>
+
+    <label for="widthInput">Cambiar el ancho de la carta a:</label>
+    <input type="text" id="widthInput">
+
+    <label for="heightInput">Cambiar el alto de la carta a:</label>
+    <input type="text" id="heightInput">
+
+    <button class="btn btn-primary mt-4" id="generate">Generate new card</button>
+
+    <footer class="bg-transparent py-3 fixed-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">
+              <i class="fa-regular fa-copyright"></i> Alexander Torreño Cerrillo
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="mb-0 text-md-end">
+              <a
+                href="https://github.com/FluxFeint"
+                target="_blank"
+                class="text-decoration-none text-white"
+                ><i class="fa-brands fa-github me-2"></i>Visit my GitHub
+                profile</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
